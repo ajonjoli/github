@@ -5,6 +5,12 @@ git config --global user.email "myluisortiz@gmail.com"
 git config --global user.name "Luis Ortiz Chan"
 
 ---
+# list of configuration global variables
+
+git config --list
+git config --list --show-origin
+
+---
 # clone for the first time  
 # it will download repository in a new folder in current path
 
