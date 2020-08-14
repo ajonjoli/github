@@ -4,7 +4,6 @@
 git config --global user.email "myluisortiz@gmail.com"  
 git config --global user.name "Luis Ortiz Chan"
 
----
 # list of configuration global variables
 
 git config --list
@@ -27,18 +26,15 @@ git status
 
 git add filename.txt
 
----
 # add all files on folder to git tracking
 # every time to THIS AND THE REST
 git add .
 
----
 # commit all updates
 # staging -> head
 
 git commit -m "comments comments"
 
----
 # push to repository branch master
 # head -> repository branch
 # it asks for github user & pass
@@ -55,4 +51,18 @@ git commit -m "testing"
 git push origin master
 ajonjoli
 p4ss
+
+---
+# BRANCHES
+# show current status
+git status
+
+# list of branches
+git branch
+
+# change branch, if not exists, creates
+git checkout -b branch_name 
+
+# update branch creation
+git push origin branch_name
 ```
