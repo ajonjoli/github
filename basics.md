@@ -65,4 +65,15 @@ git checkout -b branch_name
 
 # update branch creation
 git push origin branch_name
+
+# merge branch new to base
+# on new
+git status
+git pull
+git checkout base
+git pull
+git merge new
+git push origin base
+git status
+git checkout new
 ```
